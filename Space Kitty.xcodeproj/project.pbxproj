@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3625E733199FF97200197893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E732199FF97200197893 /* Foundation.framework */; };
+		3625E735199FF97200197893 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E734199FF97200197893 /* CoreGraphics.framework */; };
+		3625E737199FF97200197893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E736199FF97200197893 /* UIKit.framework */; };
+		3625E739199FF97200197893 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E738199FF97200197893 /* SpriteKit.framework */; };
+		3625E73F199FF97200197893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3625E73D199FF97200197893 /* InfoPlist.strings */; };
+		3625E741199FF97200197893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E740199FF97200197893 /* main.m */; };
+		3625E745199FF97200197893 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E744199FF97200197893 /* MJAppDelegate.m */; };
+		3625E748199FF97200197893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3625E746199FF97200197893 /* Main.storyboard */; };
+		3625E74B199FF97200197893 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E74A199FF97200197893 /* MJViewController.m */; };
+		3625E74E199FF97200197893 /* MJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E74D199FF97200197893 /* MJMyScene.m */; };
+		3625E750199FF97200197893 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 3625E74F199FF97200197893 /* Spaceship.png */; };
+		3625E752199FF97200197893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3625E751199FF97200197893 /* Images.xcassets */; };
+		3625E759199FF97200197893 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E758199FF97200197893 /* XCTest.framework */; };
+		3625E75A199FF97200197893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E732199FF97200197893 /* Foundation.framework */; };
+		3625E75B199FF97200197893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E736199FF97200197893 /* UIKit.framework */; };
+		3625E763199FF97200197893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3625E761199FF97200197893 /* InfoPlist.strings */; };
+		3625E765199FF97200197893 /* Space_KittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E764199FF97200197893 /* Space_KittyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3625E75C199FF97200197893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3625E727199FF97200197893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3625E72E199FF97200197893;
+			remoteInfo = "Space Kitty";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3625E72F199FF97200197893 /* Space Kitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Kitty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3625E732199FF97200197893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3625E734199FF97200197893 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3625E736199FF97200197893 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3625E738199FF97200197893 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3625E73C199FF97200197893 /* Space Kitty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Kitty-Info.plist"; sourceTree = "<group>"; };
+		3625E73E199FF97200197893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3625E740199FF97200197893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3625E742199FF97200197893 /* Space Kitty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Kitty-Prefix.pch"; sourceTree = "<group>"; };
+		3625E743199FF97200197893 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		3625E744199FF97200197893 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		3625E747199FF97200197893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3625E749199FF97200197893 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		3625E74A199FF97200197893 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		3625E74C199FF97200197893 /* MJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJMyScene.h; sourceTree = "<group>"; };
+		3625E74D199FF97200197893 /* MJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJMyScene.m; sourceTree = "<group>"; };
+		3625E74F199FF97200197893 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		3625E751199FF97200197893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3625E757199FF97200197893 /* Space KittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space KittyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3625E758199FF97200197893 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3625E760199FF97200197893 /* Space KittyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space KittyTests-Info.plist"; sourceTree = "<group>"; };
+		3625E762199FF97200197893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3625E764199FF97200197893 /* Space_KittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_KittyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3625E72C199FF97200197893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625E735199FF97200197893 /* CoreGraphics.framework in Frameworks */,
+				3625E737199FF97200197893 /* UIKit.framework in Frameworks */,
+				3625E739199FF97200197893 /* SpriteKit.framework in Frameworks */,
+				3625E733199FF97200197893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3625E754199FF97200197893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625E759199FF97200197893 /* XCTest.framework in Frameworks */,
+				3625E75B199FF97200197893 /* UIKit.framework in Frameworks */,
+				3625E75A199FF97200197893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3625E726199FF97200197893 = {
+			isa = PBXGroup;
+			children = (
+				3625E73A199FF97200197893 /* Space Kitty */,
+				3625E75E199FF97200197893 /* Space KittyTests */,
+				3625E731199FF97200197893 /* Frameworks */,
+				3625E730199FF97200197893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3625E730199FF97200197893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3625E72F199FF97200197893 /* Space Kitty.app */,
+				3625E757199FF97200197893 /* Space KittyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3625E731199FF97200197893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3625E732199FF97200197893 /* Foundation.framework */,
+				3625E734199FF97200197893 /* CoreGraphics.framework */,
+				3625E736199FF97200197893 /* UIKit.framework */,
+				3625E738199FF97200197893 /* SpriteKit.framework */,
+				3625E758199FF97200197893 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3625E73A199FF97200197893 /* Space Kitty */ = {
+			isa = PBXGroup;
+			children = (
+				3625E743199FF97200197893 /* MJAppDelegate.h */,
+				3625E744199FF97200197893 /* MJAppDelegate.m */,
+				3625E746199FF97200197893 /* Main.storyboard */,
+				3625E749199FF97200197893 /* MJViewController.h */,
+				3625E74A199FF97200197893 /* MJViewController.m */,
+				3625E74C199FF97200197893 /* MJMyScene.h */,
+				3625E74D199FF97200197893 /* MJMyScene.m */,
+				3625E74F199FF97200197893 /* Spaceship.png */,
+				3625E751199FF97200197893 /* Images.xcassets */,
+				3625E73B199FF97200197893 /* Supporting Files */,
+			);
+			path = "Space Kitty";
+			sourceTree = "<group>";
+		};
+		3625E73B199FF97200197893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3625E73C199FF97200197893 /* Space Kitty-Info.plist */,
+				3625E73D199FF97200197893 /* InfoPlist.strings */,
+				3625E740199FF97200197893 /* main.m */,
+				3625E742199FF97200197893 /* Space Kitty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3625E75E199FF97200197893 /* Space KittyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3625E764199FF97200197893 /* Space_KittyTests.m */,
+				3625E75F199FF97200197893 /* Supporting Files */,
+			);
+			path = "Space KittyTests";
+			sourceTree = "<group>";
+		};
+		3625E75F199FF97200197893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3625E760199FF97200197893 /* Space KittyTests-Info.plist */,
+				3625E761199FF97200197893 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3625E72E199FF97200197893 /* Space Kitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3625E768199FF97200197893 /* Build configuration list for PBXNativeTarget "Space Kitty" */;
+			buildPhases = (
+				3625E72B199FF97200197893 /* Sources */,
+				3625E72C199FF97200197893 /* Frameworks */,
+				3625E72D199FF97200197893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Kitty";
+			productName = "Space Kitty";
+			productReference = 3625E72F199FF97200197893 /* Space Kitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3625E756199FF97200197893 /* Space KittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3625E76B199FF97200197893 /* Build configuration list for PBXNativeTarget "Space KittyTests" */;
+			buildPhases = (
+				3625E753199FF97200197893 /* Sources */,
+				3625E754199FF97200197893 /* Frameworks */,
+				3625E755199FF97200197893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3625E75D199FF97200197893 /* PBXTargetDependency */,
+			);
+			name = "Space KittyTests";
+			productName = "Space KittyTests";
+			productReference = 3625E757199FF97200197893 /* Space KittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3625E727199FF97200197893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MrJeremy;
+				TargetAttributes = {
+					3625E756199FF97200197893 = {
+						TestTargetID = 3625E72E199FF97200197893;
+					};
+				};
+			};
+			buildConfigurationList = 3625E72A199FF97200197893 /* Build configuration list for PBXProject "Space Kitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3625E726199FF97200197893;
+			productRefGroup = 3625E730199FF97200197893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3625E72E199FF97200197893 /* Space Kitty */,
+				3625E756199FF97200197893 /* Space KittyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3625E72D199FF97200197893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625E73F199FF97200197893 /* InfoPlist.strings in Resources */,
+				3625E752199FF97200197893 /* Images.xcassets in Resources */,
+				3625E750199FF97200197893 /* Spaceship.png in Resources */,
+				3625E748199FF97200197893 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3625E755199FF97200197893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625E763199FF97200197893 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3625E72B199FF97200197893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625E741199FF97200197893 /* main.m in Sources */,
+				3625E74E199FF97200197893 /* MJMyScene.m in Sources */,
+				3625E74B199FF97200197893 /* MJViewController.m in Sources */,
+				3625E745199FF97200197893 /* MJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3625E753199FF97200197893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625E765199FF97200197893 /* Space_KittyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3625E75D199FF97200197893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3625E72E199FF97200197893 /* Space Kitty */;
+			targetProxy = 3625E75C199FF97200197893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3625E73D199FF97200197893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3625E73E199FF97200197893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3625E746199FF97200197893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3625E747199FF97200197893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3625E761199FF97200197893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3625E762199FF97200197893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3625E766199FF97200197893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3625E767199FF97200197893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3625E769199FF97200197893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kitty/Space Kitty-Prefix.pch";
+				INFOPLIST_FILE = "Space Kitty/Space Kitty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3625E76A199FF97200197893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kitty/Space Kitty-Prefix.pch";
+				INFOPLIST_FILE = "Space Kitty/Space Kitty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3625E76C199FF97200197893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Kitty.app/Space Kitty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kitty/Space Kitty-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space KittyTests/Space KittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3625E76D199FF97200197893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Kitty.app/Space Kitty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kitty/Space Kitty-Prefix.pch";
+				INFOPLIST_FILE = "Space KittyTests/Space KittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3625E72A199FF97200197893 /* Build configuration list for PBXProject "Space Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3625E766199FF97200197893 /* Debug */,
+				3625E767199FF97200197893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3625E768199FF97200197893 /* Build configuration list for PBXNativeTarget "Space Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3625E769199FF97200197893 /* Debug */,
+				3625E76A199FF97200197893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3625E76B199FF97200197893 /* Build configuration list for PBXNativeTarget "Space KittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3625E76C199FF97200197893 /* Debug */,
+				3625E76D199FF97200197893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3625E727199FF97200197893 /* Project object */;
+}
