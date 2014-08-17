@@ -16,14 +16,37 @@
 		3625E745199FF97200197893 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E744199FF97200197893 /* MJAppDelegate.m */; };
 		3625E748199FF97200197893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3625E746199FF97200197893 /* Main.storyboard */; };
 		3625E74B199FF97200197893 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E74A199FF97200197893 /* MJViewController.m */; };
-		3625E74E199FF97200197893 /* MJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E74D199FF97200197893 /* MJMyScene.m */; };
-		3625E750199FF97200197893 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 3625E74F199FF97200197893 /* Spaceship.png */; };
 		3625E752199FF97200197893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3625E751199FF97200197893 /* Images.xcassets */; };
 		3625E759199FF97200197893 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E758199FF97200197893 /* XCTest.framework */; };
 		3625E75A199FF97200197893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E732199FF97200197893 /* Foundation.framework */; };
 		3625E75B199FF97200197893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E736199FF97200197893 /* UIKit.framework */; };
 		3625E763199FF97200197893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3625E761199FF97200197893 /* InfoPlist.strings */; };
 		3625E765199FF97200197893 /* Space_KittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E764199FF97200197893 /* Space_KittyTests.m */; };
+		3625E77019A0134000197893 /* MJTitleSceen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E76F19A0134000197893 /* MJTitleSceen.m */; };
+		3625E77419A0146F00197893 /* background_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3625E77219A0146F00197893 /* background_1@2x.png */; };
+		3625E77519A0146F00197893 /* splash_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3625E77319A0146F00197893 /* splash_1@2x.png */; };
+		3625E77819A0159400197893 /* MJGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E77719A0159400197893 /* MJGamePlayScene.m */; };
+		3625E77A19A017D800197893 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3625E77919A017D800197893 /* Sprites.atlas */; };
+		3625E77D19A01BBB00197893 /* MJMachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E77C19A01BBB00197893 /* MJMachineNode.m */; };
+		3625E78019A01DEE00197893 /* MJSpaceKittyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E77F19A01DEE00197893 /* MJSpaceKittyNode.m */; };
+		3625E78319A06FD800197893 /* MJProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E78219A06FD800197893 /* MJProjectileNode.m */; };
+		3625E78719A0764900197893 /* MJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E78619A0764900197893 /* MJUtil.m */; };
+		3625E78A19A079A200197893 /* MJSpaceDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E78919A079A200197893 /* MJSpaceDogNode.m */; };
+		3625E78D19A07D1900197893 /* MJGroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E78C19A07D1900197893 /* MJGroundNode.m */; };
+		3625E79B19A110CA00197893 /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3625E78F19A110CA00197893 /* GameOver.mp3 */; };
+		3625E79C19A110CA00197893 /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3625E79019A110CA00197893 /* Gameplay.mp3 */; };
+		3625E79D19A110CA00197893 /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3625E79119A110CA00197893 /* StartScreen.mp3 */; };
+		3625E79E19A110CA00197893 /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3625E79319A110CA00197893 /* Damage.caf */; };
+		3625E7A019A110CA00197893 /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3625E79519A110CA00197893 /* Explode.caf */; };
+		3625E7A219A110CA00197893 /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3625E79719A110CA00197893 /* Laser.caf */; };
+		3625E7A419A110CA00197893 /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3625E79919A110CA00197893 /* PressStart.caf */; };
+		3625E7A719A114A200197893 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3625E7A619A114A200197893 /* AVFoundation.framework */; };
+		3625E7AA19A11DCA00197893 /* glassCracking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3625E7A919A11DCA00197893 /* glassCracking.mp3 */; };
+		3625E7AD19A11EF600197893 /* Glass.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3625E7AC19A11EF600197893 /* Glass.caf */; };
+		3625E7B419A1248900197893 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3625E7B219A1248900197893 /* Explosion.sks */; };
+		3625E7B519A1248900197893 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3625E7B319A1248900197893 /* spark.png */; };
+		3625E7B819A126EF00197893 /* MJHudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E7B719A126EF00197893 /* MJHudNode.m */; };
+		3625E7BB19A12ED900197893 /* MJGameOverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625E7BA19A12ED900197893 /* MJGameOverNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +74,48 @@
 		3625E747199FF97200197893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3625E749199FF97200197893 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
 		3625E74A199FF97200197893 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
-		3625E74C199FF97200197893 /* MJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJMyScene.h; sourceTree = "<group>"; };
-		3625E74D199FF97200197893 /* MJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJMyScene.m; sourceTree = "<group>"; };
-		3625E74F199FF97200197893 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		3625E751199FF97200197893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3625E757199FF97200197893 /* Space KittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space KittyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3625E758199FF97200197893 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3625E760199FF97200197893 /* Space KittyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space KittyTests-Info.plist"; sourceTree = "<group>"; };
 		3625E762199FF97200197893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3625E764199FF97200197893 /* Space_KittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_KittyTests.m; sourceTree = "<group>"; };
+		3625E76E19A0134000197893 /* MJTitleSceen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTitleSceen.h; sourceTree = "<group>"; };
+		3625E76F19A0134000197893 /* MJTitleSceen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTitleSceen.m; sourceTree = "<group>"; };
+		3625E77219A0146F00197893 /* background_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_1@2x.png"; sourceTree = "<group>"; };
+		3625E77319A0146F00197893 /* splash_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_1@2x.png"; sourceTree = "<group>"; };
+		3625E77619A0159400197893 /* MJGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGamePlayScene.h; sourceTree = "<group>"; };
+		3625E77719A0159400197893 /* MJGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGamePlayScene.m; sourceTree = "<group>"; };
+		3625E77919A017D800197893 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		3625E77B19A01BBB00197893 /* MJMachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMachineNode.h; sourceTree = "<group>"; };
+		3625E77C19A01BBB00197893 /* MJMachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMachineNode.m; sourceTree = "<group>"; };
+		3625E77E19A01DEE00197893 /* MJSpaceKittyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSpaceKittyNode.h; sourceTree = "<group>"; };
+		3625E77F19A01DEE00197893 /* MJSpaceKittyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSpaceKittyNode.m; sourceTree = "<group>"; };
+		3625E78119A06FD800197893 /* MJProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProjectileNode.h; sourceTree = "<group>"; };
+		3625E78219A06FD800197893 /* MJProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProjectileNode.m; sourceTree = "<group>"; };
+		3625E78519A0764900197893 /* MJUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJUtil.h; path = ../MJUtil.h; sourceTree = "<group>"; };
+		3625E78619A0764900197893 /* MJUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJUtil.m; path = ../MJUtil.m; sourceTree = "<group>"; };
+		3625E78819A079A200197893 /* MJSpaceDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSpaceDogNode.h; sourceTree = "<group>"; };
+		3625E78919A079A200197893 /* MJSpaceDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSpaceDogNode.m; sourceTree = "<group>"; };
+		3625E78B19A07D1900197893 /* MJGroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGroundNode.h; sourceTree = "<group>"; };
+		3625E78C19A07D1900197893 /* MJGroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGroundNode.m; sourceTree = "<group>"; };
+		3625E78F19A110CA00197893 /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		3625E79019A110CA00197893 /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		3625E79119A110CA00197893 /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
+		3625E79319A110CA00197893 /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		3625E79519A110CA00197893 /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		3625E79719A110CA00197893 /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		3625E79919A110CA00197893 /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		3625E7A619A114A200197893 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3625E7A819A11C0A00197893 /* glassCracking.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = glassCracking.caf; sourceTree = "<group>"; };
+		3625E7A919A11DCA00197893 /* glassCracking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = glassCracking.mp3; sourceTree = "<group>"; };
+		3625E7AC19A11EF600197893 /* Glass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glass.caf; sourceTree = "<group>"; };
+		3625E7B219A1248900197893 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		3625E7B319A1248900197893 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		3625E7B619A126EF00197893 /* MJHudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJHudNode.h; sourceTree = "<group>"; };
+		3625E7B719A126EF00197893 /* MJHudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJHudNode.m; sourceTree = "<group>"; };
+		3625E7B919A12ED900197893 /* MJGameOverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGameOverNode.h; sourceTree = "<group>"; };
+		3625E7BA19A12ED900197893 /* MJGameOverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGameOverNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3625E7A719A114A200197893 /* AVFoundation.framework in Frameworks */,
 				3625E735199FF97200197893 /* CoreGraphics.framework in Frameworks */,
 				3625E737199FF97200197893 /* UIKit.framework in Frameworks */,
 				3625E739199FF97200197893 /* SpriteKit.framework in Frameworks */,
@@ -109,6 +166,7 @@
 		3625E731199FF97200197893 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3625E7A619A114A200197893 /* AVFoundation.framework */,
 				3625E732199FF97200197893 /* Foundation.framework */,
 				3625E734199FF97200197893 /* CoreGraphics.framework */,
 				3625E736199FF97200197893 /* UIKit.framework */,
@@ -121,15 +179,38 @@
 		3625E73A199FF97200197893 /* Space Kitty */ = {
 			isa = PBXGroup;
 			children = (
+				3625E77119A0146F00197893 /* Background Images */,
+				3625E7B219A1248900197893 /* Explosion.sks */,
+				3625E751199FF97200197893 /* Images.xcassets */,
+				3625E746199FF97200197893 /* Main.storyboard */,
 				3625E743199FF97200197893 /* MJAppDelegate.h */,
 				3625E744199FF97200197893 /* MJAppDelegate.m */,
-				3625E746199FF97200197893 /* Main.storyboard */,
+				3625E7B919A12ED900197893 /* MJGameOverNode.h */,
+				3625E7BA19A12ED900197893 /* MJGameOverNode.m */,
+				3625E77619A0159400197893 /* MJGamePlayScene.h */,
+				3625E77719A0159400197893 /* MJGamePlayScene.m */,
+				3625E78B19A07D1900197893 /* MJGroundNode.h */,
+				3625E78C19A07D1900197893 /* MJGroundNode.m */,
+				3625E7B619A126EF00197893 /* MJHudNode.h */,
+				3625E7B719A126EF00197893 /* MJHudNode.m */,
+				3625E77B19A01BBB00197893 /* MJMachineNode.h */,
+				3625E77C19A01BBB00197893 /* MJMachineNode.m */,
+				3625E78119A06FD800197893 /* MJProjectileNode.h */,
+				3625E78219A06FD800197893 /* MJProjectileNode.m */,
+				3625E78819A079A200197893 /* MJSpaceDogNode.h */,
+				3625E78919A079A200197893 /* MJSpaceDogNode.m */,
+				3625E77E19A01DEE00197893 /* MJSpaceKittyNode.h */,
+				3625E77F19A01DEE00197893 /* MJSpaceKittyNode.m */,
+				3625E76E19A0134000197893 /* MJTitleSceen.h */,
+				3625E76F19A0134000197893 /* MJTitleSceen.m */,
+				3625E78519A0764900197893 /* MJUtil.h */,
+				3625E78619A0764900197893 /* MJUtil.m */,
 				3625E749199FF97200197893 /* MJViewController.h */,
 				3625E74A199FF97200197893 /* MJViewController.m */,
-				3625E74C199FF97200197893 /* MJMyScene.h */,
-				3625E74D199FF97200197893 /* MJMyScene.m */,
-				3625E74F199FF97200197893 /* Spaceship.png */,
-				3625E751199FF97200197893 /* Images.xcassets */,
+				3625E78E19A110CA00197893 /* Music */,
+				3625E79219A110CA00197893 /* Sounds */,
+				3625E7B319A1248900197893 /* spark.png */,
+				3625E77919A017D800197893 /* Sprites.atlas */,
 				3625E73B199FF97200197893 /* Supporting Files */,
 			);
 			path = "Space Kitty";
@@ -162,6 +243,40 @@
 				3625E761199FF97200197893 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3625E77119A0146F00197893 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				3625E77219A0146F00197893 /* background_1@2x.png */,
+				3625E77319A0146F00197893 /* splash_1@2x.png */,
+			);
+			path = "Background Images";
+			sourceTree = "<group>";
+		};
+		3625E78E19A110CA00197893 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3625E78F19A110CA00197893 /* GameOver.mp3 */,
+				3625E79019A110CA00197893 /* Gameplay.mp3 */,
+				3625E79119A110CA00197893 /* StartScreen.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		3625E79219A110CA00197893 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3625E7A819A11C0A00197893 /* glassCracking.caf */,
+				3625E79319A110CA00197893 /* Damage.caf */,
+				3625E79519A110CA00197893 /* Explode.caf */,
+				3625E7A919A11DCA00197893 /* glassCracking.mp3 */,
+				3625E7AC19A11EF600197893 /* Glass.caf */,
+				3625E79719A110CA00197893 /* Laser.caf */,
+				3625E79919A110CA00197893 /* PressStart.caf */,
+			);
+			name = Sounds;
+			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +356,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3625E7A419A110CA00197893 /* PressStart.caf in Resources */,
+				3625E77A19A017D800197893 /* Sprites.atlas in Resources */,
+				3625E79B19A110CA00197893 /* GameOver.mp3 in Resources */,
+				3625E79C19A110CA00197893 /* Gameplay.mp3 in Resources */,
+				3625E77419A0146F00197893 /* background_1@2x.png in Resources */,
+				3625E7AA19A11DCA00197893 /* glassCracking.mp3 in Resources */,
+				3625E7A019A110CA00197893 /* Explode.caf in Resources */,
+				3625E7AD19A11EF600197893 /* Glass.caf in Resources */,
 				3625E73F199FF97200197893 /* InfoPlist.strings in Resources */,
 				3625E752199FF97200197893 /* Images.xcassets in Resources */,
-				3625E750199FF97200197893 /* Spaceship.png in Resources */,
+				3625E7A219A110CA00197893 /* Laser.caf in Resources */,
+				3625E77519A0146F00197893 /* splash_1@2x.png in Resources */,
+				3625E79E19A110CA00197893 /* Damage.caf in Resources */,
+				3625E7B419A1248900197893 /* Explosion.sks in Resources */,
 				3625E748199FF97200197893 /* Main.storyboard in Resources */,
+				3625E79D19A110CA00197893 /* StartScreen.mp3 in Resources */,
+				3625E7B519A1248900197893 /* spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +391,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3625E7B819A126EF00197893 /* MJHudNode.m in Sources */,
+				3625E77019A0134000197893 /* MJTitleSceen.m in Sources */,
 				3625E741199FF97200197893 /* main.m in Sources */,
-				3625E74E199FF97200197893 /* MJMyScene.m in Sources */,
+				3625E78A19A079A200197893 /* MJSpaceDogNode.m in Sources */,
+				3625E78719A0764900197893 /* MJUtil.m in Sources */,
+				3625E77D19A01BBB00197893 /* MJMachineNode.m in Sources */,
+				3625E78D19A07D1900197893 /* MJGroundNode.m in Sources */,
+				3625E78319A06FD800197893 /* MJProjectileNode.m in Sources */,
 				3625E74B199FF97200197893 /* MJViewController.m in Sources */,
 				3625E745199FF97200197893 /* MJAppDelegate.m in Sources */,
+				3625E78019A01DEE00197893 /* MJSpaceKittyNode.m in Sources */,
+				3625E77819A0159400197893 /* MJGamePlayScene.m in Sources */,
+				3625E7BB19A12ED900197893 /* MJGameOverNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
